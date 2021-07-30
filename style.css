@@ -1,9 +1,36 @@
+body
+{
+  color: aliceblue;
+  background-color: black;
+}
+button
+{
+  color: darkolivegreen;
+  border-radius: 2px solid white;
+  display: inline;
+  width: 90px;
+  height: inherit;
+}
+.tobuy
+{
+  color: black;
+  align-content: inline;
+  display: inline-block;
+  background-image: radial-gradient( yellow 15%, darkolivegreen 60%);
+
+}
+h1,h2,h3,h4,h5,h6
+{
+  align-content: center;
+  color: cadetblue;
+}
 .emptyMessage {
   font-weight: bold;
   color: red;
   font-size: 1.2em;
 }
-li {
+li 
+{
   margin-bottom: 7px;
   font-size: 1.2em;
 }
@@ -12,4 +39,12 @@ li > button {
 }
 button > span {
   color: green;
+}
+.done
+{
+  color: black;
+  align-content: inline;
+  display: inline-block;
+  background-image: radial-gradient( yellow 15%, darkolivegreen 60%);
+
 }
